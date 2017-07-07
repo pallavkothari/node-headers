@@ -1,2 +1,2 @@
-web: ./nginx-start.sh && ./start-proxy.sh
+web: ./start-proxy.sh
 

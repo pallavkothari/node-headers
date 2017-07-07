@@ -14,4 +14,8 @@ echo "starting oauth2_proxy..."
 --provider="github" \
 --email-domain="*" \
 --http-address=127.0.0.1:8080 \
---upstream=http://localhost:8081
+--upstream=http://127.0.0.1:8081
+
+
+echo "starting nginx..."
+./nginx-start.sh 
