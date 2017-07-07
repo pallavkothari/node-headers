@@ -1,6 +1,6 @@
 A simple little web app to echo request headers.
 
-## Usage....
+## Usage.....
 
 ```
 git clone https://github.com/aseemk/node-headers.git
