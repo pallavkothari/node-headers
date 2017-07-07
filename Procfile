@@ -1,1 +1,2 @@
-web: ./nginx-start.sh  && go get github.com/pallavkothari/oauth2_proxy &&  /app/go/bin/oauth2_proxy  --cookie-secure=true --provider="github" --email-domain="*" --http-address=127.0.0.1:8080 --upstream=http://localhost:8081  && npm start
+web: ./nginx-start.sh  && npm start && ./start-proxy.sh
+
