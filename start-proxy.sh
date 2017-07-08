@@ -3,7 +3,7 @@
 set -e 
 
 echo "starting nginx..."
-./bin/nginx-start
+./bin/start-nginx
 
 echo "starting oauth2_proxy..."
 /app/go/bin/oauth2_proxy  \
