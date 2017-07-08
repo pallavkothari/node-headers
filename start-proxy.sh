@@ -7,7 +7,7 @@ oauth2_proxy  \
 --http-address=http://:$PORT \
 --cookie-secure=false \
 --cookie-domain=peaceful-river-83867.herokuapp.com \
---provider="github" \
+--provider="facebook" \
 --email-domain="*" \
 --redirect-url=https://peaceful-river-83867.herokuapp.com/oauth2/callback \
 --set-xauthrequest=true \
