@@ -9,7 +9,7 @@ var http = require('http');
 var app = express();
 
 // all environments
-app.set('port', process.env.PORT || 8080);
+app.set('port', 8080);
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(app.router);
