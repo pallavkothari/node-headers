@@ -13,6 +13,8 @@ brew install go
 go get github.com/pallavkothari/oauth2_proxy
 
 
+# NOTE : replace "..." everywhere below with real values!
+
 # set up local env 
 echo "PORT=4180" >> .env
 echo "OAUTH2_PROXY_CLIENT_ID=..." >> .env
