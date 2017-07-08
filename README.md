@@ -1,3 +1,6 @@
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 A simple little web app to echo request headers.
 
 ## Usage
