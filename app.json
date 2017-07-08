@@ -1,0 +1,29 @@
+{
+  "name": "node-headers",
+  "scripts": {
+  },
+  "env": {
+    "OAUTH2_PROXY_CLIENT_ID": {
+      "required": true
+    },
+    "OAUTH2_PROXY_CLIENT_SECRET": {
+      "required": true
+    },
+    "OAUTH2_PROXY_COOKIE_SECRET": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/pallavkothari/heroku-buildpack-oauth2-proxy"
+    }
+  ]
+}
