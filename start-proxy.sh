@@ -2,7 +2,7 @@
 
 set -e 
 
-echo "starting nginx... "
+echo " starting nginx... "
 ./bin/start-nginx
 
 echo "starting oauth2_proxy..."
