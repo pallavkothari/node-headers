@@ -1,2 +1,2 @@
-web: ./start-proxy.sh 
+web: ./start-proxy.sh && npm start
 

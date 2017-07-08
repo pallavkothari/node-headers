@@ -3,7 +3,7 @@
 set -e 
 
 echo " starting nginx... "
-./bin/start-nginx
+./bin/start-nginx & 
 
 echo "starting oauth2_proxy..."
 /app/go/bin/oauth2_proxy  \
@@ -11,5 +11,5 @@ echo "starting oauth2_proxy..."
 --provider="github" \
 --email-domain="*" \
 --redirect-url=https://protected-reef-24329.herokuapp.com/oauth2/callback \
---upstream=http://127.0.0.1:8080
+--upstream=http://127.0.0.1:8080 & 
 
