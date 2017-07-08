@@ -3,7 +3,7 @@
 set -e 
 
 echo "starting oauth2_proxy..."
-/app/go/bin/oauth2_proxy  \
+oauth2_proxy  \
 --http-address=http://:$PORT \
 --cookie-secure=false \
 --cookie-domain=peaceful-river-83867.herokuapp.com \
