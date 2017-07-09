@@ -1,7 +1,6 @@
+A simple little web app to echo request headers, with an oauth2_proxy server guarding it. 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-A simple little web app to echo request headers.
 
 
 
@@ -23,9 +22,9 @@ echo "PORT=4180" >> .env
 echo "OAUTH2_PROXY_CLIENT_ID=..." >> .env
 echo "OAUTH2_PROXY_CLIENT_SECRET=..." >> .env
 echo "OAUTH2_PROXY_COOKIE_SECRET=..." >> .env
-echo "PROVIDER=..." >> .env ######## e.g. facebook, github, etc. 
-echo "APP=..." >> .env ############# e.g. peaceful-river-83867.herokuapp.com
-
+echo "PROVIDER=..." >> .env 	######## e.g. facebook, github, etc. 
+echo "APP=..." >> .env 			######## e.g. https://peaceful-river-83867.herokuapp.com
+echo "COOKIE_DOMAIN=..." >> .env	##### e.g. localhost, app.herokuapp.com, etc. 
 
 # start it up locally as it would on heroku 
 heroku local 
