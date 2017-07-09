@@ -25,6 +25,7 @@ echo "OAUTH2_PROXY_COOKIE_SECRET=..." >> .env
 echo "PROVIDER=..." >> .env 	######## e.g. facebook, github, etc. 
 echo "APP=..." >> .env 			######## e.g. https://peaceful-river-83867.herokuapp.com
 echo "COOKIE_DOMAIN=..." >> .env	##### e.g. localhost, app.herokuapp.com, etc. 
+echo "OAUTH2_PROXY_SIGNATURE_KEY=sha1:supersecret" >> .env # change me
 
 # start it up locally as it would on heroku 
 heroku local 

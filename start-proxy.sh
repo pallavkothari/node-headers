@@ -11,5 +11,6 @@ oauth2_proxy  \
 --email-domain="*" \
 --redirect-url=${APP}/oauth2/callback \
 --set-xauthrequest=true \
+--pass-access-token=true \
 --upstream=http://127.0.0.1:8080 & 
 

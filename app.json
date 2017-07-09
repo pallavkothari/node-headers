@@ -20,6 +20,9 @@
     },
     "COOKIE_DOMAIN": {
       "required": true
+    },
+    "OAUTH2_PROXY_SIGNATURE_KEY": {
+      "required": true
     }
   },
   "formation": {
