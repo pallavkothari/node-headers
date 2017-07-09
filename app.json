@@ -11,6 +11,15 @@
     },
     "OAUTH2_PROXY_COOKIE_SECRET": {
       "required": true
+    },
+    "PROVIDER": {
+      "required": true
+    },
+    "APP": {
+      "required": true
+    },
+    "COOKIE_DOMAIN": {
+      "required": true
     }
   },
   "formation": {
