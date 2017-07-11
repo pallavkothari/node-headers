@@ -28,20 +28,6 @@ echo "COOKIE_DOMAIN=..." >> .env	##### e.g. localhost, app.herokuapp.com, etc.
 echo "OAUTH2_PROXY_SIGNATURE_KEY=sha1:supersecret" >> .env # change me
 
 # start it up locally as it would on heroku
-
-echo "oauth2_proxy  --http-address=http://:$PORT --cookie-secure=false --cookie-domain=${COOKIE_DOMAIN} --provider="${PROVIDER}" --email-domain="*" --redirect-url=${APP}/oauth2/callback --set-xauthrequest=true --pass-access-token=true --upstream=http://127.0.0.1:8080" > start-oauth2-proxy.sh
-
-chmod +x start-oauth2-proxy.sh
-
 heroku local 
 ```
 
-## heroku setup 
-```
-heroku create 
-heroku buildpacks:add https://github.com/pallavkothari/heroku-buildpack-oauth2-proxy
-heroku buildpacks:add heroku/java
-cat .env | xargs heroku config:set 
-git push heroku master 
-heroku open 
-```
