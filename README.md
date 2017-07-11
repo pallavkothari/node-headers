@@ -27,7 +27,7 @@ echo "APP=..." >> .env 			######## e.g. https://peaceful-river-83867.herokuapp.c
 echo "COOKIE_DOMAIN=..." >> .env	##### e.g. localhost, app.herokuapp.com, etc. 
 echo "OAUTH2_PROXY_SIGNATURE_KEY=sha1:supersecret" >> .env # change me
 
-# start it up locally as it would on heroku 
+# start it up locally as it would on heroku
 heroku local 
 ```
 
