@@ -10,6 +10,7 @@ var app = express();
 
 // all environments
 app.set('port', 8080);
+app.set('trust proxy', true);
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(app.router);
