@@ -9,7 +9,7 @@ var http = require('http');
 var app = express();
 
 // all environments
-app.set('port', 8080);
+app.set('port', process.env.PORT || 8081);
 app.set('trust proxy', true);
 app.use(express.favicon());
 app.use(express.logger('dev'));
