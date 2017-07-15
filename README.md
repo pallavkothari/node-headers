@@ -13,7 +13,7 @@ cd node-headers
 # install oauth2_proxy locally
 brew install go
 go get github.com/pallavkothari/oauth2_proxy
-
+ 
 
 # NOTE : replace placeholder values below with real values!
 
