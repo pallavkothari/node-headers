@@ -1,2 +1,2 @@
-web: ./start-proxy.sh && npm start
+web: ./start-oauth2-proxy.sh && npm start
 
